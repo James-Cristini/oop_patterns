@@ -1,7 +1,8 @@
 ### Bridge: Decouple an abstraction from its implementation so that the two can vary independently
-# Favors omposition over inheritance
-# Instead of a LongFormArtist, LongFormBook, ThumbnalArtist, ThumbnailBook, etc. via inheritance
+# Favor composition over inheritance
+# Instead of a LongFormArtist, LongFormBook, ThumbnailArtist, ThumbnailBook, etc. via inheritance,
 # Have LongForm, Thumbnail separate classes which accept Artist, Book, etc. as resources
+# Some similarities here to strategy and adapter patterns
 
 
 class IResource(object):

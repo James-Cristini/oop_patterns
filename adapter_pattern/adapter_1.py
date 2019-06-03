@@ -1,4 +1,5 @@
-### Adapter pattern example
+### Adapter: Converts the interface of a class into another interface that the client expects
+## Allows classes work together that could not otherwise because of incompatible interfaces
 
 from __future__ import print_function
 
